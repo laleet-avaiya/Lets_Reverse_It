@@ -1,0 +1,46 @@
+#homepagetag{
+    font-family: inherit; 
+                      font-size: 24px;
+                      text-transform: uppercase;
+                      color: #303030;
+                      font-weight: 600;
+                      margin-bottom: 30px;
+}
+
+
+img{
+    width:100%;
+  }
+  
+  
+  div#part{
+    font-family: monospace;
+  }
+  
+  div#header{
+  width: 100%;
+  height: auto;
+  
+  }
+  div#header center img {
+    width: 120px;
+    height: 120px;
+    
+    
+    }
+  
+  div#tag{
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  }
+  
+  div#tagdetails{
+  text-align: center;
+  font-size: 16px;
+  }
+
+
+
+  

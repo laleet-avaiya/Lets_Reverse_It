@@ -1,0 +1,53 @@
+::-webkit-scrollbar {
+    display:none;
+}
+
+
+
+
+#myTable{
+    color:black;
+    padding:10px 20px 10px 20px;
+    border-bottom: 1px solid #DEDEDE;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+  
+}
+
+#myTable a{
+    color:black;
+   
+}
+
+#title{
+    text-align:justify;
+    font-size:15px;
+}
+
+
+#myTable a:hover{
+    background:#F0F0F0;
+    color:black;
+   
+}
+
+#myTable:hover{
+color:black;
+background:#F0F0F0;
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+   
+    #title {
+        font-size: 12px;
+    }
+
+    #date {
+        font-size: 12px;
+    }
+}

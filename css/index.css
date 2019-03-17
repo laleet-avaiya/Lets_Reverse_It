@@ -1,0 +1,109 @@
+::-webkit-scrollbar {
+    display:none;
+}
+
+
+/* Home Panel*/
+
+  p{
+    width:100%;
+    font-size:18px;
+    text-align:justify;
+    font-family:Time New Roman;
+  }
+
+   
+  #pagefpanel{
+    height: 300px;
+  }
+
+
+
+h1#maintag{
+  font-size: 40px; 
+    line-height: 50px;
+    font-family:Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color:#4CAF50;
+    margin: .67em 0;
+    text-align: center;
+    padding-top:50px; 
+}
+
+h1#maintag:hover{
+  color: inherit;
+}
+
+
+
+
+  
+@media screen and (max-width: 600px) {
+  
+     
+  #pagefpanel{
+    height: 500px;
+  }
+
+
+  
+
+h1#maintag{
+    font-size: 21px; 
+    line-height: 50px;
+    font-family:Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    margin: .67em 0;
+    text-align: center;
+    padding-top:190px; 
+}
+
+
+    p{
+    width:100%;
+    font-size:20px;
+    text-align:justify;
+    font-family:Time New Roman;
+  }
+
+
+
+}
+
+
+
+@media screen and (max-height: 600px) {
+  
+  p{
+  width:100%;
+  font-size:20px;
+  text-align:justify;
+  font-family:Time New Roman;
+}
+
+
+   
+#pagefpanel{
+  height: 350px;
+  
+}
+ 
+h1#maintag{
+    font-size: 21px; 
+    line-height: 50px;
+    font-family:Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding-top:75px; 
+    
+}
+
+
+
+
+
+   
+
+
+
+}

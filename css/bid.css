@@ -1,0 +1,147 @@
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#title {
+    font-size: 30px;
+    font-family:monospace;
+    text-align: justify;
+    
+
+    color: white;
+    
+   /* width: 85%;*/
+}
+
+#sp {
+    float: right;
+    width: 100%;
+    
+
+}
+
+#description{
+    height:90px;
+    line-height: 1.5;
+    resize: vertical;
+    text-indent: 0;
+    width:100%;
+    text-align: start;
+}
+
+
+
+#myTable{
+    color:black;
+    padding:10px 20px 10px 20px;
+    border-bottom: 1px solid #DEDEDE;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+#myTable a{
+    color:black;
+
+}
+
+#title1{
+    text-align:justify;
+    font-size:15px;
+    overflow-wrap: break-word;
+    
+}
+
+div#title1{
+   
+    overflow-wrap: break-word;
+    
+}
+
+
+div#amount{
+   
+    overflow-wrap: break-word;
+    
+}
+
+
+
+#myTable a:hover{
+    background:#F0F0F0;
+    color:black;
+
+}
+
+#myTable:hover{
+color:black;
+background:#F0F0F0;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    #title {
+        font-size: 14px;
+        font-weight: 500;
+        color: white;
+        text-align: justify;
+        
+       /* width: 70%;*/
+        padding-top: 0px;
+        
+    }
+
+  /*  button#sp {
+        margin-bottom:20px; 
+    }*/
+    #sp {
+        float: right;
+        width: auto;
+        font-size: 10px;
+        margin-bottom:20px; 
+    }
+
+
+    
+#title1{
+    text-align:justify;
+    font-size:10px; 
+}
+
+#amount{
+    text-align:justify;
+    font-size:9px; 
+}
+
+}
+
+
+
+@media screen and (max-height: 600px) {
+    #title {
+        font-size: 14px;
+        font-weight: 700;
+        color: white;
+        /*width: 70%;*/
+        padding: 10px;
+    }
+    #sp {
+        float: right;
+        width: auto;
+        font-size: 10px;
+    }
+
+    
+#title1{
+    text-align:justify;
+    font-size:10px; 
+}
+
+#amount{
+    text-align:justify;
+    font-size:10px; 
+}
+
+}

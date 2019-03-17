@@ -1,0 +1,78 @@
+::-webkit-scrollbar {
+    display:none;
+}
+
+
+span a#rowelement{
+font-family: monospace;
+font-weight: bolder;
+color: white;
+padding-right: 15px;
+}
+
+span#copyyear a{  
+  float: right;
+  padding-right:0px; 
+}
+
+
+  
+section#backtotop{
+  display: block;
+  background-color: #37475a;
+  cursor: pointer;
+  color: #fff;
+  padding: 15px 0;
+  font-family: arial,sans-serif;
+
+  line-height: 19px;
+  font-size: 14px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  
+  
+    /* Footer row element */
+    
+  span a#rowelement{
+    font-family: monospace;
+    font-weight: bolder;
+    color: white;
+    padding-right: 0px;
+    display: block;
+    }
+    
+    span#copyyear a{  
+      float: left;
+      padding-right:0px; 
+      display: block;
+    }
+  
+  
+  }
+  
+  
+  
+  @media screen and (max-height: 600px) {
+   
+  
+  span a#rowelement{
+    font-family: monospace;
+    font-weight: bolder;
+    color: white;
+    display: block; 
+    
+    }
+    
+    span#copyyear a{ 
+      display: block; 
+      float: left;
+      padding:20px 0px 0px 0px; 
+      
+    }
+  
+  
+  }
+  
