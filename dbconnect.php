@@ -3,10 +3,10 @@
 
 
 <?php
-$servername = "mysql.hostinger.in";
-$username = "u197349189_mahi";
-$password = "mahi@7373";
-$dbname = "u197349189_lri";
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "u197349189_mahi";
 
 	// Create connection
 	$con = mysqli_connect($servername, $username, $password, $dbname);
